@@ -6,4 +6,5 @@ export default {
   component: Input,
 };
 
-export const SearchFood = () => <Input />;
+export const SearchFood = () => <Input label="Search for food..."/>;
+export const SearchRestaurant = () => <Input label="Search for restaurant..."/>;

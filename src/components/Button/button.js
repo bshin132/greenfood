@@ -10,7 +10,6 @@ const ButtonContainer = styled.div`
   text-align: center;
   line-height: 50px;
   cursor: pointer;
-  font-family: "Nexa", sans-serif;
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "#77c360"};
 `;
