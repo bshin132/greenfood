@@ -9,14 +9,15 @@ const ButtonContainer = styled.div`
   color: #ffffff;
   text-align: center;
   line-height: 50px;
+  cursor: pointer;
   font-family: "Nexa", sans-serif;
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : "#77c360"};
 `;
 
-const Button = ({ backgroundColor, label }) => {
+const Button = ({ backgroundColor, label, onClick }) => {
   return (
-    <ButtonContainer style={{ backgroundColor: backgroundColor }}>
+    <ButtonContainer onClick={onClick} style={{ backgroundColor: backgroundColor }}>
       {label}
     </ButtonContainer>
   );
