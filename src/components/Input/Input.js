@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FaSearch } from "react-icons/fa";
 
 const InputContainer = styled.input`
   width: 357px;

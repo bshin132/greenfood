@@ -11,7 +11,7 @@ const ButtonContainer = styled.div`
   line-height: 50px;
   cursor: pointer;
   background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : "#77c360"};
+    props.backgroundColor ? props.backgroundColor : "#51B072"};
 `;
 
 const Button = ({ backgroundColor, label, onClick }) => {
